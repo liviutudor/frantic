@@ -1,0 +1,36 @@
+Frantic Theme
+(http://wpthemes.co.nz/frantic-theme/)
+
+/*************************************************
+Version 1.4.2
+*************************************************/
+- fixed some css issues and updated the footer
+
+/*************************************************
+Version 1.4.1
+*************************************************/
+- fixed the seo-seeded footer link anchor text
+
+/***********************************************
+version 1.4
+***********************************************/
+- replaced get_template_directory_uri() with get_stylesheet_uri() to enqueue stylesheet in functions.php
+- updated the footer credit
+
+/***********************************************
+version 1.3
+***********************************************/
+- fixed w3c validation errors
+- updated title filter function
+- updated readme.txt
+- updated footer credit
+- removed style.css path from header and placed it inside function.php
+
+/***********************************************
+version 1.2.2
+***********************************************/
+- added the latest Modernizr files
+- fixed the Modernizr path in functions.php
+- replaced bloginfo('stylesheet_url') with get_stylesheet_uri() in header.php
+- removed unnecessary scripts and files
+- fixed minor css issues
