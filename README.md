@@ -1,0 +1,2 @@
+# frantic
+Frantic WordPress theme
