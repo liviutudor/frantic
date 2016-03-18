@@ -9,3 +9,10 @@ Sidebars
 
 This adds the following new sidebars to the theme:
 
+* Footer left
+* Footer middle
+* Footer right
+
+They will appear as 3 columns at the bottom of the screen, under the main "table".
+
+
