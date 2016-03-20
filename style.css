@@ -922,3 +922,36 @@ Much easier right? This way, you don't have to call
 any more stylesheets, you can leave it at the bottom
 and it will overwrite depending on the html class.
 */
+
+
+
+
+/******** FOOTER SIDEBARS ***********/
+nav#bottom_banner {
+  background: rgba(0, 0, 0, 0) url("library/images/nav_rev.png") no-repeat scroll 0 0;
+  height: 73px;
+  margin-top: 12px;
+  margin-left: -18px;
+  overflow: hidden;
+  width: 1176px;
+}
+
+div#content-wrap div#footer_sidebars,
+div#content-wrap div#footer_sidebars div {
+	background-color: #282828;
+	background-image: none;
+	bakground-repeat: repeat;
+}
+#footer_sidebars {
+	width: 100%;
+}
+
+#footer_sidebars #footer_left,
+#footer_sidebars #footer_middle,
+#footer_sidebars #footer_right {
+	width: 32%;
+	padding: 1px;
+	float: left;
+}
+/******** END FOOTER SIDEBARS ***********/
+

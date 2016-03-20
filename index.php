@@ -119,6 +119,33 @@
     
 				<?php get_sidebar(); // sidebar 1 ?>
     
+			<nav id="bottom_banner">
+			&nbsp;
+			</nav>
 			</div> <!-- end #content -->
+
+<!-- sidebars for footer -->
+	<div id="footer_sidebars">
+		<div id="footer_left">
+			<?php if ( is_active_sidebar( 'sidebar_footer_left' ) ) : ?>
+				<?php dynamic_sidebar( 'sidebar_footer_left' ); ?>
+			<?php endif; ?>
+		</div>
+
+		<div id="footer_middle">
+			<?php if ( is_active_sidebar( 'sidebar_footer_middle' ) ) : ?>
+				<?php dynamic_sidebar( 'sidebar_footer_middle' ); ?>
+			<?php endif; ?>
+		</div>
+
+		<div id="footer_right">
+			<?php if ( is_active_sidebar( 'sidebar_footer_right' ) ) : ?>
+				<?php dynamic_sidebar( 'sidebar_footer_right' ); ?>
+			<?php endif; ?>
+		</div>
+		<br clear="both"/>
+	</div>
+<!-- end footer sidebars -->
+
 
 <?php get_footer(); ?>

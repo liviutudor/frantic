@@ -149,6 +149,35 @@ function frantic_register_sidebars() {
     	'after_title' => '</h4>',
     ));
     
+    register_sidebar(array(
+    	'id' => 'sidebar_footer_left',
+    	'name' => 'Footer left',
+    	'description' => 'First column (sidebar) in the footer on the left.',
+    	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    	'after_widget' => '</div>',
+    	'before_title' => '<h4 class="widgettitle">',
+    	'after_title' => '</h4>',
+    ));
+
+    register_sidebar(array(
+    	'id' => 'sidebar_footer_middle',
+    	'name' => 'Footer middle',
+    	'description' => 'Second column (sidebar) in the footer in the middle.',
+    	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    	'after_widget' => '</div>',
+    	'before_title' => '<h4 class="widgettitle">',
+    	'after_title' => '</h4>',
+    ));
+
+    register_sidebar(array(
+    	'id' => 'sidebar_footer_right',
+    	'name' => 'Footer right',
+    	'description' => 'Third column (sidebar) in the footer on the right.',
+    	'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    	'after_widget' => '</div>',
+    	'before_title' => '<h4 class="widgettitle">',
+    	'after_title' => '</h4>',
+    ));
     /* 
     to add more sidebars or widgetized areas, just copy
     and edit the above sidebar code. In order to call 
